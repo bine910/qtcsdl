@@ -1,0 +1,7 @@
+node_modules/
+back/node_modules/
+back/dist/
+front/node_modules/
+*.env
+npm-debug.log
+.vscode/
