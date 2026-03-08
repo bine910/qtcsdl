@@ -1,0 +1,15 @@
+﻿=== Authentication Mode ===
+LoginMode = 1 (Windows Authentication only)
+
+=== Checking SQL Login via sqlcmd ===
+sqlcmd : Sqlcmd: Error: Microsoft ODBC Driver 18 for SQL Server : SSL Provider: The certificate chain was issued by an 
+authority that is not trusted.
+At C:\Code\project_uni\HQTCSDL\back\project-name\auth_diag.ps1:29 char:15
++ ...   $result = sqlcmd -S "localhost,1433" -Q "SELECT name, type_desc, is ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Sqlcmd: Error: ...is not trusted.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+.
+Sqlcmd: Error: Microsoft ODBC Driver 18 for SQL Server : Client unable to establish connection. For solutions related 
+to encryption errors, see https://go.microsoft.com/fwlink/?linkid=2226722.

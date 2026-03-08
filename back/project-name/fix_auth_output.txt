@@ -1,0 +1,16 @@
+﻿=== Step 1: Enable Mixed Mode ===
+LoginMode set to 2 (Mixed Mode) successfully
+
+=== Step 2: Create SQL Login cloth_user ===
+
+(0 rows affected)
+Login cloth_user created
+Changed database context to 'ClothShopDB'.
+User cloth_user created in ClothShopDB
+cloth_user added to db_owner role
+
+=== Step 3: Restart SQL Server ===
+SQL Server restarted. Status: Running
+
+=== Step 4: Verify ===
+LoginMode is now: 2

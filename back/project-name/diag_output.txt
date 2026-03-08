@@ -1,0 +1,17 @@
+﻿=== SQL Services ===
+MSSQL$SQLEXPRESS - Status: Running - StartType: Automatic
+SQLBrowser - Status: Stopped - StartType: Disabled
+SQLWriter - Status: Running - StartType: Automatic
+
+=== Listening TCP Ports (SQL related) ===
+SQL Server PID: 2416
+  Listening: :::1433
+  Listening: 0.0.0.0:1433
+
+=== Port 1433 check ===
+Port 1433 IS listening
+
+=== UDP Port 1434 (SQL Browser) ===
+UDP 1434 NOT open (SQL Browser not running?)
+
+=== Firewall Rules for SQL ===

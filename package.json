@@ -1,0 +1,11 @@
+{
+  "name": "hqtcsdl-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run start:dev --prefix back/project-name\" \"npm run dev --prefix front/front\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

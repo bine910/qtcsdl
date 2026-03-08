@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@nestjs/cli": "^11.0.16",
+    "@nestjs/config": "^4.0.3",
+    "dotenv": "^17.3.1",
+    "mssql": "^12.2.0"
+  }
+}
